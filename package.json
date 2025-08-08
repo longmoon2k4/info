@@ -1,0 +1,51 @@
+{
+  "name": "long-professional-portfolio",
+  "version": "2.0.0",
+  "description": "Professional portfolio website - Showcase skills and experience to employers",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "live-server --port=3000 --host=localhost --open=/ --watch=.",
+    "build": "echo 'Static website - Ready for deployment'",
+    "deploy": "echo 'Upload files to your hosting/domain'",
+    "test": "echo 'Testing website functionality...'",
+    "validate": "echo 'HTML/CSS/JS validation'"
+  },
+  "keywords": [
+    "portfolio",
+    "professional",
+    "website",
+    "developer",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "modern",
+    "employer",
+    "recruitment",
+    "skills",
+    "experience",
+    "projects"
+  ],
+  "author": "Long",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.1",
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/professional-portfolio.git"
+  },
+  "homepage": "https://yourdomain.com",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
