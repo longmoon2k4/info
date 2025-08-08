@@ -5,5 +5,5 @@
       "dest": "/index.html"
     }
   ],
-  "outputDirectory": "."
+  "outputDirectory": "public"
 }
