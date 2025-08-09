@@ -1,99 +1,109 @@
-# Website Cá Nhân - Long
 
-Đây là website cá nhân hiển thị thông tin về Long, bao gồm giới thiệu, kỹ năng, dự án và thông tin liên hệ.
+<div align="center">
+    <img src="ava.png" alt="Long Avatar" width="120" style="border-radius:50%" />
+  
+    <h1>👨‍💻 <span style="color:#6366f1">Long</span> - Portfolio Website</h1>
+    <p>✨ <b>Senior Full-Stack Developer</b> | <img src="https://img.shields.io/badge/Location-Ho%20Chi%20Minh%20City-orange?style=flat-square&logo=googlemaps"/> | <img src="https://img.shields.io/badge/Contact-long.dev@gmail.com-blue?style=flat-square&logo=gmail"/></p>
+    <p>
+        <a href="#about">About</a> • <a href="#skills">Skills</a> • <a href="#projects">Projects</a> • <a href="#contact">Contact</a>
+    </p>
+</div>
 
-## Tính năng
 
-- **Responsive Design**: Tương thích với mọi thiết bị
-- **Modern UI/UX**: Thiết kế hiện đại, chuyên nghiệp
-- **Interactive Elements**: Animations và effects mượt mà
-- **Contact Form**: Form liên hệ với validation
-- **SEO Friendly**: Tối ưu cho SEO
+## 🚀 Tính Năng Nổi Bật
 
-## Cấu trúc file
+<ul>
+    <li>📱 <b>Responsive Design</b> – Hiển thị đẹp trên mọi thiết bị</li>
+    <li>🎨 <b>Modern UI/UX</b> – Thiết kế hiện đại, chuyên nghiệp</li>
+    <li>⚡ <b>Animation & Effects</b> – Hiệu ứng mượt mà, bắt mắt</li>
+    <li>📬 <b>Contact Form</b> – Gửi liên hệ trực tiếp, có xác thực</li>
+    <li>🔍 <b>SEO Friendly</b> – Tối ưu tìm kiếm Google</li>
+    <li>🌐 <b>Multi-platform Deploy</b> – Dễ dàng triển khai lên Netlify, Vercel, GitHub Pages...</li>
+</ul>
 
-```
+---
+
+## 🗂️ Cấu Trúc Dự Án
+
+```text
 info/
-├── index.html          # Trang chủ
-├── styles.css          # CSS styling
-├── script.js           # JavaScript functionality
+├── public/
+│   ├── index.html      # Trang chủ
+│   ├── styles.css      # CSS styling
+│   ├── script.js       # JavaScript functionality
+│   └── ava.png         # Ảnh đại diện
 ├── README.md           # Hướng dẫn
-└── .htaccess          # Cấu hình Apache (cho hosting)
+├── vercel.json         # Cấu hình Vercel SPA
+└── .htaccess           # Cấu hình Apache (hosting truyền thống)
 ```
 
-## Cách sử dụng
+---
 
-### 1. Chỉnh sửa thông tin cá nhân
+## 🛠️ Hướng Dẫn Sử Dụng & Deploy
 
-Mở file `index.html` và cập nhật:
-- Tên trong phần hero
-- Thông tin giới thiệu
-- Danh sách kỹ năng
-- Thông tin dự án
-- Thông tin liên hệ (email, phone, địa chỉ)
+### 1️⃣ Chỉnh sửa thông tin cá nhân
 
-### 2. Deploy lên hosting
+> Sửa file <b>public/index.html</b> để cập nhật tên, mô tả, kỹ năng, dự án, liên hệ...
 
-#### Hosting thông thường (cPanel, FileManager):
-1. Upload tất cả file lên thư mục `public_html` hoặc `www`
-2. Đảm bảo file `index.html` ở root directory
-3. Website sẽ hoạt động ngay lập tức
+### 2️⃣ Deploy website
 
-#### Netlify (Miễn phí):
-1. Tạo tài khoản tại [netlify.com](https://netlify.com)
-2. Kéo thả thư mục `info` vào Netlify
-3. Cấu hình custom domain nếu có
+<details>
+<summary><b>🌍 Hosting truyền thống (cPanel, FTP...)</b></summary>
 
-#### Vercel (Miễn phí):
-1. Tạo tài khoản tại [vercel.com](https://vercel.com)
-2. Import project từ GitHub hoặc upload trực tiếp
-3. Deploy với một click
+1. Upload toàn bộ thư mục <b>public/</b> lên <b>public_html</b> hoặc <b>www</b>
+2. Trỏ domain về hosting
+3. Website hoạt động ngay!
+</details>
 
-#### GitHub Pages (Miễn phí):
+<details>
+<summary><b>⚡ Netlify (Miễn phí)</b></summary>
+
+1. Đăng ký tại <a href="https://netlify.com">netlify.com</a>
+2. Kéo thả thư mục <b>public/</b> vào dashboard
+3. Thêm custom domain nếu có
+</details>
+
+<details>
+<summary><b>▲ Vercel (Miễn phí)</b></summary>
+
+1. Đăng ký tại <a href="https://vercel.com">vercel.com</a>
+2. Import project từ GitHub hoặc upload thư mục <b>public/</b>
+3. Deploy chỉ với 1 click
+</details>
+
+<details>
+<summary><b>💡 GitHub Pages (Miễn phí)</b></summary>
+
 1. Upload code lên GitHub repository
 2. Bật GitHub Pages trong Settings
-3. Chọn branch `main` và thư mục root
+3. Chọn branch <b>main</b> và thư mục <b>public/</b>
+</details>
 
-### 3. Trỏ domain
+---
 
-Sau khi deploy, bạn cần trỏ domain đã thuê:
+## 🎨 Tuỳ Biến & Mở Rộng
 
-#### Với hosting thông thường:
-1. Đăng nhập vào trang quản lý domain
-2. Thay đổi nameserver về nameserver của hosting
-3. Hoặc cấu hình A Record trỏ về IP của hosting
+<ul>
+    <li>🎨 <b>Đổi màu sắc</b>: Sửa biến <code>:root</code> trong <b>styles.css</b></li>
+    <li>🧩 <b>Thêm section mới</b>: Thêm HTML vào <b>index.html</b>, CSS vào <b>styles.css</b></li>
+    <li>📊 <b>Tích hợp analytics</b>: Thêm Google Analytics vào trước <code>&lt;/head&gt;</code></li>
+    <li>🌟 <b>Thay avatar</b>: Đổi file <b>ava.png</b> trong <b>public/</b></li>
+</ul>
 
-#### Với Netlify/Vercel:
-1. Thêm custom domain trong dashboard
-2. Cấu hình CNAME record trỏ về subdomain được cung cấp
+---
 
-## Tùy chỉnh
+## 💻 Yêu Cầu Kỹ Thuật
 
-### Thay đổi màu sắc:
-Chỉnh sửa các biến CSS trong `styles.css`:
-```css
-:root {
-    --primary-color: #6366f1;
-    --secondary-color: #fbbf24;
-    --background-color: #f9fafb;
-}
-```
+<ul>
+    <li>🖥️ <b>Browser</b>: Chrome, Firefox, Safari, Edge (mới)</li>
+    <li>📱 <b>Mobile</b>: iOS Safari, Chrome Mobile</li>
+    <li>⚡ <b>Performance</b>: Tối ưu tốc độ tải</li>
+    <li>♿ <b>Accessibility</b>: Tuân thủ WCAG guidelines</li>
+</ul>
 
-### Thêm sections mới:
-1. Thêm HTML structure vào `index.html`
-2. Thêm styling tương ứng vào `styles.css`
-3. Cập nhật navigation menu
+---
 
-### Tích hợp analytics:
-Thêm Google Analytics hoặc tracking code vào trước tag `</head>`
-
-## Yêu cầu kỹ thuật
-
-- **Browser Support**: Chrome, Firefox, Safari, Edge (modern versions)
-- **Mobile Friendly**: iOS Safari, Chrome Mobile
-- **Performance**: Optimized cho loading speed
-- **Accessibility**: Tuân thủ WCAG guidelines
-
-## Liên hệ
-
-Nếu cần hỗ trợ customize thêm, vui lòng liên hệ qua thông tin trong website.
+<div align="center">
+    <b>💌 Liên hệ hỗ trợ & customize:</b> <a href="mailto:long.dev@gmail.com">long.dev@gmail.com</a> <br/>
+    <a href="#"><img src="https://img.shields.io/badge/Portfolio-View%20Live-blueviolet?style=for-the-badge&logo=vercel"/></a>
+</div>
