@@ -40,9 +40,9 @@ Xin chào! Mình là <b>Long</b> – một lập trình viên đam mê công ngh
 ## 📬 Liên hệ
 
 <ul>
-	<li>📧 Email: <a href="mailto:long.dev@gmail.com">long.dev@gmail.com</a></li>
-	<li>🌐 LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li>
-	<li>💼 GitHub: <a href="https://github.com/yourprofile">github.com/yourprofile</a></li>
+	<li>📧 Email: <a href="mailto:longmoon2004@gmail.com">long.dev@gmail.com</a></li>
+	<li>🌐 LinkedIn: <a href="https://linkedin.com/in/">linkedin.com/in/</a></li>
+	<li>💼 GitHub: <a href="https://github.com/longmoon2k4">github.com/longmoon2k4</a></li>
 </ul>
 
 <div align="center">
